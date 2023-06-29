@@ -48,7 +48,7 @@ cmake-gen --executable
 
 ```txt
 > Package name: demo
-> Package version (default 0.1.0): #
+> Package version (default 0.1.0):
 > c or cpp (default: c):
 > Cmake configuration created successfully, path: /home/xxx/code/cpp/demo/CMakeLists.txt
 > 
