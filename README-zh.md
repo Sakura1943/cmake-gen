@@ -18,6 +18,7 @@ CMake项目生成器
 
 ```shell
 git clone https://github.com/Sakura1943/cmake-gen.git
+cd cmake-gen
 cp -f ./cmake-gen $HOME/.local/bin
 ```
 
