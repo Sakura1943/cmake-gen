@@ -6,6 +6,7 @@ import os
 import argparse
 from enum import Enum
 
+
 path = os.path.abspath("./CMakeLists.txt")
 src_path = os.path.abspath("./src")
 build_path = os.path.abspath("./build")
