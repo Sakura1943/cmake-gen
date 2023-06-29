@@ -7,6 +7,7 @@ English | [简体中文](./README-zh.md)
 ---
 ## 🤖 Installation
 Stored in paths that exist in the `$PATH` environment variable, such as `/usr/bin`, or `$HOME/.local/bin`.
+
 ```shell
 git clone https://github.com/Sakura1943/cmake-gen.git
 cp -f ./cmake-gen $HOME/.local/bin
@@ -14,9 +15,11 @@ cp -f ./cmake-gen $HOME/.local/bin
 ---
 ## 📖 Usage
 ### Help information
+
 ```shell
 cmake-gen --help
 ```
+
 ```txt
 usage: cmake-gen [-h] [--executable] [--library] [-v]
 
@@ -31,9 +34,11 @@ options:
 
 ### Generate the project
 #### Executable project
+
 ```shell
 cmake-gen --executable
 ```
+
 ```txt
 > Package name: demo
 > Package version (default 0.1.0): #
@@ -68,9 +73,11 @@ Hello, demo!
 ```
 
 #### Library project
+
 ```shell
 cmake-gen --library
 ```
+
 ```txt
 > Package name: demo
 > Package version (default 0.1.0): 
@@ -84,5 +91,6 @@ cmake-gen --library
 > Initialization completed
 ```
 ---
+
 ## License
 The MIT License ([MIT](https://opensource.org/licenses/MIT))

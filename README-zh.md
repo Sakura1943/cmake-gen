@@ -7,16 +7,20 @@ Cmake项目生成器
 ---
 ## 🤖 安装
 存放于环境变量`$PATH`中已存在的路径，比如`/usr/bin`，或者`$HOME/.local/bin`。
+
 ```shell
 git clone https://github.com/Sakura1943/cmake-gen.git
 cp -f ./cmake-gen $HOME/.local/bin
 ```
+
 ---
 ## 📖 使用方法
 ### 帮助信息
+
 ```shell
 cmake-gen --help
 ```
+
 ```txt
 usage: cmake-gen [-h] [--executable] [--library] [-v]
 
@@ -31,9 +35,11 @@ options:
 
 ### 生成项目
 #### 可执行项目
+
 ```shell
 cmake-gen --executable
 ```
+
 ```txt
 > 软件包名: demo
 > 软件包版本(默认0.1.0): 
@@ -80,9 +86,11 @@ Hello, demo!
 ```
 
 #### 代码库项目
+
 ```shell
 cmake-gen --library
 ```
+
 ```txt
 > 软件包名: demo
 > 软件包版本(默认0.1.0): 
@@ -95,6 +103,8 @@ cmake-gen --library
 > 
 > 初始化完成
 ```
+
 ---
+
 ## License
 The MIT License ([MIT](https://opensource.org/licenses/MIT))
