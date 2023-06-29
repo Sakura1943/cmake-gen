@@ -1,10 +1,18 @@
 # cmake-gen
-Cmake项目生成器
+CMake项目生成器
 ---
 
 [English](./README.md) | 简体中文
 
 ---
+
+## 准备
+
+> Python >= 3.6<br>
+> CMake >= 3.0.0<br>
+
+---
+
 ## 🤖 安装
 存放于环境变量`$PATH`中已存在的路径，比如`/usr/bin`，或者`$HOME/.local/bin`。
 

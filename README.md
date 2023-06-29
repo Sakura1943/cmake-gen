@@ -1,8 +1,15 @@
 # cmake-gen
-Cmake project generator
+CMake project generator
 ---
 
 English | [简体中文](./README-zh.md)
+
+---
+
+## Prepare
+
+> Python >= 3.6<br>
+> CMake >= 3.0.0<br>
 
 ---
 ## 🤖 Installation
