@@ -18,6 +18,7 @@ CMake项目生成器
 
 ```shell
 git clone https://github.com/Sakura1943/cmake-gen.git
+cd cmake-gen
 cp -f ./cmake-gen $HOME/.local/bin
 ```
 
@@ -66,17 +67,7 @@ cmake-gen --executable
 > 开始构建
 -- The C compiler identification is GNU 13.1.1
 -- The CXX compiler identification is GNU 13.1.1
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- children= 
+...
 -- Configuring done (0.4s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/xxx/code/cpp/demo/build
